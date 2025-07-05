@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شروط الاستخدام - دليل الشيوخ الروحانيين</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* تعريف الألوان المخصصة إذا لم تكن موجودة في تهيئة Tailwind */
+        :root {
+            --primary: #4f46e5; /* مثال للون أساسي */
+            --primary-foreground: #ffffff;
+            --muted-foreground: #6b7280; /* لون نص باهت */
+            --card: #ffffff; /* لون خلفية البطاقات */
+            --card-foreground: #1f2937; /* لون نص البطاقات */
+            --border: #e5e7eb; /* لون الحدود */
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .bg-primary\/10 {
+            background-color: rgba(79, 70, 229, 0.1); /* 10% شفافية من اللون الأساسي */
+        }
+
+        .text-muted-foreground {
+            color: var(--muted-foreground);
+        }
+
+        .bg-card {
+            background-color: var(--card);
+        }
+
+        .text-card-foreground {
+            color: var(--card-foreground);
+        }
+
+        .border-border {
+            border-color: var(--border);
+        }
+
+        /* خلفية مخصصة للقسم الرئيسي */
+        .spiritual-bg {
+            background-color: #f3f4f6; /* لون خلفية افتراضي */
+            /* يمكنك استبدال هذا بصورة خلفية روحانية أو تدرج لوني */
+            /* background-image: url('your-spiritual-background-image.jpg'); */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        /* تنسيقات إضافية للبطاقات لتبدو أنيقة */
+        .spiritual-card {
+            border-width: 1px;
+            border-color: var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+      
+    
+        .submit-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:#4f46e5   ; /* لون الخلفية الأخضر - يمكن تغييره */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; /* زوايا دائرية */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 50px 0px;
+  width: 50%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* لون أغمق عند التحويم */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثيرات للتركيز لإمكانية الوصول */
+.submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4);
+}
+    </style></head>
+<body class="font-sans antialiased">
+      <!-- هيدر الموقع -->
+      <header style="background-color: #1b0355; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center;">
+                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: white;">
+                        <img src="images/dlil.ico" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
+                        <span style="font-weight: 700; font-size: 1.2rem;">دليل الروحانيين</span>
+                    </a>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <a href="#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
+                    <a href="#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
+                    <a href="https://wa.me/905370441838?text=السلام+عليكم+ارجو+ان+توصلني+بأحد+الشيوخ+المعتمدين+في+موقعكم" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; font-weight: 500;">
+                        <span>واتساب</span>
+                        <i class="fab fa-whatsapp" style="margin-right: 5px;"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="spiritual-bg min-h-screen pt-20 pb-16">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold mb-4">شروط الاستخدام</h1>
+                <p class="text-muted-foreground">الرجاء قراءة هذه الشروط بعناية قبل استخدام خدماتنا.</p>
+            </div>
+
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm spiritual-card p-8">
+                <div class="space-y-6 text-lg leading-relaxed"><h5> 1. شروط عامة</h5><p>
+                   
+                    باستخدامك لموقع "دليل الشيوخ الروحانيين"، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على أي من هذه الشروط، يرجى عدم استخدام الموقع أو طلب أي استشارات من خلاله.
+                    
+                    يحتفظ الموقع بالحق في تعديل هذه الشروط في أي وقت دون إشعار مسبق. ويعتبر استمرارك في استخدام الموقع بعد نشر التعديلات موافقة منك على الشروط المعدلة.
+                </p><h5> 2. طبيعة الخدمات</h5><p>
+                   
+                    يقدم موقع "دليل الشيوخ الروحانيين" منصة للتواصل مع شيوخ وشيخات متخصصين في مجالات العلاج الروحاني والاستشارات الروحانية التقليدية.
+                    
+                    الموقع هو منصة وسيطة تربط بين العملاء والشيوخ المتخصصين، ولا يتحمل الموقع مسؤولية أي نتائج أو آثار ناتجة عن الاستشارات المقدمة من الشيوخ.
+                    
+                    تختلف نتائج العلاج الروحاني من حالة إلى أخرى وقد تتطلب وقتاً للظهور، ولا يضمن الموقع أو الشيوخ نتائج محددة لأي حالة.
+                    </p><h5> 3. التواصل والدفع</h5><p>
+                   
+                    يتم التواصل مع الشيوخ حصراً عبر رقم الواتساب الخاص بالموقع (+905370441838)، ويقوم الموقع بتحويل العميل إلى الشيخ المختص.
+                    
+                    يتم تحديد رسوم الاستشارة بالاتفاق بين العميل والشيخ المختص بناءً على نوع الاستشارة وطبيعة الحالة.
+                    
+                    يجب دفع الرسوم المتفق عليها قبل بدء الاستشارة، ويتم ذلك من خلال طرق الدفع المعتمدة لدى الموقع.
+                </p><h5> 4. سياسة استرداد الأموال</h5><p>
+                   
+                    يمكن للعميل طلب استرداد الأموال في الحالات التالية:
+                    
+                    عدم تقديم الخدمة المتفق عليها بعد الدفع
+                    وجود اختلاف واضح بين ما تم الاتفاق عليه والخدمة المقدمة
+                    عدم استجابة الشيخ المختص خلال 7 أيام من الدفع
+                    يتم النظر في طلبات الاسترداد خلال 14 يوم عمل من تاريخ تقديم الشكوى، وقد يتم رفض الطلب إذا لم تنطبق عليه شروط الاسترداد.
+                </p><h5>  5. السلوك المطلوب</h5><p>
+                  
+                    يجب على المستخدمين الالتزام بآداب الحوار واحترام الشيوخ وموظفي الموقع عند التواصل.
+                    
+                    يحظر استخدام الموقع لأي أغراض غير قانونية أو مخالفة للشريعة الإسلامية أو الأعراف والتقاليد.
+                    
+                    يحتفظ الموقع بالحق في حظر أي مستخدم يخالف شروط الاستخدام أو يسيء استخدام الخدمات المقدمة.
+                </p><h5> 6. المسؤولية القانونية</h5><p>
+                   
+                    لا يتحمل موقع "دليل الشيوخ الروحانيين" أي مسؤولية قانونية عن نتائج الاستشارات أو العلاجات المقدمة من الشيوخ.
+                    
+                    يقر المستخدم بأن استخدامه للموقع وطلب الاستشارات هو على مسؤوليته الشخصية، وأنه قد اطلع على إخلاء المسؤولية وشروط الاستخدام ووافق عليها.
+                    
+                    بالتسجيل في الموقع أو طلب الاستشارات، فإنك تقر بأنك قد قرأت وفهمت ووافقت على جميع شروط الاستخدام المذكورة أعلاه.
+                </p><a href="index.html">  <button    type="submit" class="submit-btn">عودة الى الصفحة الرئيسية </button></a>
+                    <p class="mt-8 text-sm text-center text-muted-foreground">آخر تحديث: 30 يونيو 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة استرداد الأموال - دليل الشيوخ الروحانيين</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* تعريف الألوان المخصصة إذا لم تكن موجودة في تهيئة Tailwind */
+        :root {
+            --primary: #4f46e5; /* مثال للون أساسي */
+            --primary-foreground: #ffffff;
+            --muted-foreground: #6b7280; /* لون نص باهت */
+            --card: #ffffff; /* لون خلفية البطاقات */
+            --card-foreground: #1f2937; /* لون نص البطاقات */
+            --border: #e5e7eb; /* لون الحدود */
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .bg-primary\/10 {
+            background-color: rgba(79, 70, 229, 0.1); /* 10% شفافية من اللون الأساسي */
+        }
+
+        .text-muted-foreground {
+            color: var(--muted-foreground);
+        }
+
+        .bg-card {
+            background-color: var(--card);
+        }
+
+        .text-card-foreground {
+            color: var(--card-foreground);
+        }
+
+        .border-border {
+            border-color: var(--border);
+        }
+
+        /* خلفية مخصصة للقسم الرئيسي */
+        .spiritual-bg {
+            background-color: #f3f4f6; /* لون خلفية افتراضي */
+            /* يمكنك استبدال هذا بصورة خلفية روحانية أو تدرج لوني */
+            /* background-image: url('your-spiritual-background-image.jpg'); */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        /* تنسيقات إضافية للبطاقات لتبدو أنيقة */
+        .spiritual-card {
+            border-width: 1px;
+            border-color: var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+       
+        .submit-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:#4f46e5   ; /* لون الخلفية الأخضر - يمكن تغييره */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; /* زوايا دائرية */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 50px 0px;
+  width: 50%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* لون أغمق عند التحويم */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثيرات للتركيز لإمكانية الوصول */
+.submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4);
+}
+    </style></head>
+<body class="font-sans antialiased">
+      <!-- هيدر الموقع -->
+      <header style="background-color: #1b0355; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center;">
+                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: white;">
+                        <img src="images/dlil.ico" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
+                        <span style="font-weight: 700; font-size: 1.2rem;">دليل الروحانيين</span>
+                    </a>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <a href="#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
+                    <a href="#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
+                    <a href="https://wa.me/905370441838?text=السلام+عليكم+ارجو+ان+توصلني+بأحد+الشيوخ+المعتمدين+في+موقعكم" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; font-weight: 500;">
+                        <span>واتساب</span>
+                        <i class="fab fa-whatsapp" style="margin-right: 5px;"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="spiritual-bg min-h-screen pt-20 pb-16">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold mb-4">سياسة استرداد الأموال</h1>
+                <p class="text-muted-foreground max-w-3xl mx-auto">تعرف على شروط استرداد أموالك لخدمات "دليل الشيوخ الروحانيين".</p>
+            </div>
+
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm spiritual-card p-8">
+                <div class="space-y-6 text-lg leading-relaxed"><h5>1. شروط استرداد الأموال</h5><p>
+                    يمكن للعميل طلب استرداد الأموال في الحالات التالية:
+                    
+                    عدم تقديم الخدمة: في حال عدم تقديم الخدمة المتفق عليها بعد إتمام عملية الدفع خلال 7 أيام عمل.
+                    الاختلاف الواضح في الخدمة: وجود اختلاف جوهري وواضح بين ما تم الاتفاق عليه والخدمة المقدمة بالفعل.
+                    عدم الاستجابة: عدم استجابة الشيخ المختص للتواصل بعد الدفع لمدة تزيد عن 7 أيام متواصلة.
+                </p><h5>2. الحالات غير المؤهلة للاسترداد</h5> <p>
+                    لا يمكن طلب استرداد الأموال في الحالات التالية:
+                    
+                    مرور الوقت: بعد مرور 30 يوماً من تاريخ الدفع.
+                    عدم تحقق النتائج المرجوة: عدم ظهور النتائج المتوقعة من العلاج أو الاستشارة، حيث أن النتائج تختلف من شخص لآخر وليست مضمونة.
+                    تقديم الخدمة بالكامل: بعد تقديم الخدمة المتفق عليها بالكامل والتواصل مع الشيخ المختص.
+                    تقديم معلومات غير صحيحة: في حال تقديم العميل لمعلومات غير صحيحة أو مضللة عند طلب الاستشارة.
+                </p><h5> 3. إجراءات طلب الاسترداد</h5> <p>
+                    لطلب استرداد المبالغ المدفوعة، يرجى اتباع الخطوات التالية:
+                    
+                    تقديم شكوى رسمية من خلال صفحة "تقديم شكوى" في الموقع، مع تحديد خيار "أرغب في استرداد المبلغ المدفوع".
+                    ذكر تفاصيل الدفع بما في ذلك رقم الطلب (إن وجد) والتاريخ والمبلغ وطريقة الدفع المستخدمة.
+                    توضيح سبب طلب الاسترداد بشكل مفصل، مع تقديم أي دليل داعم إن وجد (مثل لقطات شاشة للمحادثات أو الاتفاقيات).
+                    انتظار الرد من فريق خدمة العملاء خلال 14 يوم عمل كحد أقصى.
+                </p> <h5>4. فترة المعالجة</h5><p>
+                    تتم معالجة طلبات الاسترداد خلال 14 يوم عمل من تاريخ استلام الطلب المكتمل.
+                    
+                    في حال الموافقة على طلب الاسترداد، سيتم تحويل المبلغ إلى الحساب أو البطاقة المستخدمة في عملية الدفع الأصلية خلال 7 أيام عمل إضافية.
+                </p> <h5>5. الاسترداد الجزئي</h5><p>
+                    
+                    في بعض الحالات، قد نقدم استرداداً جزئياً للمبلغ المدفوع بناءً على طبيعة الحالة وظروفها ونسبة الخدمة التي تم تقديمها بالفعل.
+                </p><h5> 6. حق الموقع في رفض الاسترداد</h5><p>
+                   
+                    يحتفظ موقع "دليل الشيوخ الروحانيين" بالحق في رفض طلب الاسترداد في الحالات التالية:
+                    
+                    عدم تطابق الحالة مع شروط الاسترداد المذكورة أعلاه
+                    تقديم معلومات غير صحيحة أو مضللة في طلب الاسترداد
+                    تجاوز المدة المسموح بها لتقديم طلب الاسترداد (30 يوماً من تاريخ الدفع)
+                </p>   نسعى دائماً إلى ضمان رضا عملائنا وتقديم خدمات عالية الجودة. إذا كانت لديك أي استفسارات بخصوص سياسة الاسترداد، يرجى التواصل معنا عبر واتساب على الرقم المذكور في الموقع.  </p>
+                <a href="index.html">  <button    type="submit" class="submit-btn">عودة الى الصفحة الرئيسية </button></a> 
+                 <p class="mt-8 text-sm text-center text-muted-foreground">**آخر تحديث: 30 يونيو 2025**</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

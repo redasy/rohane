@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إخلاء المسؤولية - دليل الشيوخ الروحانيين</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* تعريف الألوان المخصصة إذا لم تكن موجودة في تهيئة Tailwind */
+        :root {
+            --primary: #4f46e5; /* مثال للون أساسي */
+            --primary-foreground: #ffffff;
+            --muted-foreground: #6b7280; /* لون نص باهت */
+            --card: #ffffff; /* لون خلفية البطاقات */
+            --card-foreground: #1f2937; /* لون نص البطاقات */
+            --border: #e5e7eb; /* لون الحدود */
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .bg-primary\/10 {
+            background-color: rgba(79, 70, 229, 0.1); /* 10% شفافية من اللون الأساسي */
+        }
+
+        .text-muted-foreground {
+            color: var(--muted-foreground);
+        }
+
+        .bg-card {
+            background-color: var(--card);
+        }
+
+        .text-card-foreground {
+            color: var(--card-foreground);
+        }
+
+        .border-border {
+            border-color: var(--border);
+        }
+
+        /* خلفية مخصصة للقسم الرئيسي */
+        .spiritual-bg {
+            background-color: #f3f4f6; /* لون خلفية افتراضي */
+            /* يمكنك استبدال هذا بصورة خلفية روحانية أو تدرج لوني */
+            /* background-image: url('your-spiritual-background-image.jpg'); */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        /* تنسيقات إضافية للبطاقات لتبدو أنيقة */
+        .spiritual-card {
+            border-width: 1px;
+            border-color: var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+   
+        .submit-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:#4f46e5   ; /* لون الخلفية الأخضر - يمكن تغييره */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; /* زوايا دائرية */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 50px 0px;
+  width: 50%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* لون أغمق عند التحويم */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثيرات للتركيز لإمكانية الوصول */
+.submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4);
+}
+    </style></head>
+<body class="font-sans antialiased">
+     <!-- هيدر الموقع -->
+     <header style="background-color: #1b0355; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center;">
+                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: white;">
+                        <img src="images/dlil.ico" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
+                        <span style="font-weight: 700; font-size: 1.2rem;">دليل الروحانيين</span>
+                    </a>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <a href="#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
+                    <a href="#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
+                    <a href="https://wa.me/905370441838?text=السلام+عليكم+ارجو+ان+توصلني+بأحد+الشيوخ+المعتمدين+في+موقعكم" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; font-weight: 500;">
+                        <span>واتساب</span>
+                        <i class="fab fa-whatsapp" style="margin-right: 5px;"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="spiritual-bg min-h-screen pt-20 pb-16">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold mb-4">إخلاء المسؤولية</h1>
+                <p class="text-muted-foreground max-w-3xl mx-auto">يرجى قراءة هذا الإخلاء بعناية قبل استخدام خدمات "دليل الشيوخ الروحانيين".</p>
+            </div>
+
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm spiritual-card p-8">
+            <div class="space-y-6 text-lg leading-relaxed"> <h5>تنبيه مهم</h5><p>
+                    المعلومات والاستشارات المقدمة في هذا الموقع هي لأغراض ثقافية وتراثية فقط، ولا تُغني عن الاستشارات الطبية المتخصصة في حالات المرض الجسدي أو النفسي.
+                </p><h5> 1. طبيعة المعلومات المقدمة</h5>
+                   <p>
+                    جميع المعلومات والمحتويات المقدمة في موقع "دليل الشيوخ الروحانيين" هي لأغراض معرفية وثقافية فقط، وتستند إلى معارف وممارسات تقليدية.
+                    
+                    لا يمكن اعتبار أي معلومات أو استشارات مقدمة في الموقع بديلاً عن الاستشارة الطبية أو النفسية المتخصصة، ويجب على المستخدمين استشارة الأطباء المختصين في حالة وجود أي مشكلات صحية.
+                </p><h5> 2. دور الموقع</h5>
+                   <p>
+                    موقع "دليل الشيوخ الروحانيين" هو منصة وسيطة تربط بين العملاء والشيوخ المتخصصين في المجالات الروحانية التقليدية.
+                    
+                    لا يقدم الموقع أي ضمانات بشأن دقة أو فعالية أو نتائج الاستشارات والعلاجات المقدمة من الشيوخ، ولا يتحمل أي مسؤولية عن أي قرارات يتخذها المستخدم بناءً على هذه الاستشارات.
+                </p><h5> 3. النتائج والتوقعات</h5>
+                   <p>
+                    تختلف نتائج العلاجات الروحانية من شخص لآخر، وقد تتطلب وقتاً للظهور أو قد لا تظهر النتائج المرجوة على الإطلاق.
+                    
+                    لا يضمن الموقع أو الشيوخ المتعاونون معه أي نتائج محددة لأي استشارة أو علاج، ويجب على المستخدم عدم بناء توقعات غير واقعية بشأن النتائج.
+                </p><h5> 4. المسؤولية القانونية</h5>
+                   <p>
+                    لا يتحمل موقع "دليل الشيوخ الروحانيين" أي مسؤولية قانونية عن أي ضرر مباشر أو غير مباشر قد ينتج عن استخدام الموقع أو الاعتماد على المعلومات المقدمة فيه أو تطبيق الاستشارات المقدمة من الشيوخ.
+                    
+                    يقر المستخدم بأن استخدامه للموقع وطلب الاستشارات هو على مسؤوليته الشخصية الكاملة.
+                </p><h5>5. تنصل من المسؤولية الطبية</h5>
+                    <p>
+                    لا يُعد أي شيخ أو مستشار في الموقع طبيباً أو معالجاً نفسياً مرخصاً، ولا يجوز اعتبار نصائحهم أو علاجاتهم بديلاً عن العلاج الطبي.
+                    
+                    يجب على المستخدمين الذين يعانون من مشكلات صحية أو نفسية التماس المشورة الطبية المتخصصة من الأطباء المرخصين.
+                    
+                    باستخدامك لموقع "دليل الشيوخ الروحانيين"، فإنك تقر بأنك قد قرأت وفهمت إخلاء المسؤولية هذا، وتوافق على عدم تحميل الموقع أو إدارته أو الشيوخ المتعاونين معه أي مسؤولية قانونية عن أي نتائج قد تنشأ عن استخدام الموقع أو الاستشارات المقدمة من خلاله. <a href="index.html">  <button    type="submit" class="submit-btn">عودة الى الصفحة الرئيسية </button></a>
+                    <p class="mt-8 text-sm text-center text-muted-foreground">**آخر تحديث: 30 يونيو 2025**</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

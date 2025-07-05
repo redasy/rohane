@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - دليل الشيوخ الروحانيين</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* تعريف الألوان المخصصة إذا لم تكن موجودة في تهيئة Tailwind */
+        :root {
+            --primary: #4f46e5; /* مثال للون أساسي */
+            --primary-foreground: #ffffff;
+            --muted-foreground: #6b7280; /* لون نص باهت */
+            --card: #ffffff; /* لون خلفية البطاقات */
+            --card-foreground: #1f2937; /* لون نص البطاقات */
+            --border: #e5e7eb; /* لون الحدود */
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .bg-primary\/10 {
+            background-color: rgba(79, 70, 229, 0.1); /* 10% شفافية من اللون الأساسي */
+        }
+
+        .text-muted-foreground {
+            color: var(--muted-foreground);
+        }
+
+        .bg-card {
+            background-color: var(--card);
+        }
+
+        .text-card-foreground {
+            color: var(--card-foreground);
+        }
+
+        .border-border {
+            border-color: var(--border);
+        }
+
+        /* خلفية مخصصة للقسم الرئيسي */
+        .spiritual-bg {
+            background-color: #f3f4f6; /* لون خلفية افتراضي */
+            /* يمكنك استبدال هذا بصورة خلفية روحانية أو تدرج لوني */
+            /* background-image: url('your-spiritual-background-image.jpg'); */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        /* تنسيقات إضافية للبطاقات لتبدو أنيقة */
+        .spiritual-card {
+            border-width: 1px;
+            border-color: var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+      
+        .submit-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:#4f46e5   ; /* لون الخلفية الأخضر - يمكن تغييره */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; /* زوايا دائرية */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 50px 0px;
+  width: 50%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* لون أغمق عند التحويم */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثيرات للتركيز لإمكانية الوصول */
+.submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4);
+}
+    </style></head>
+<body class="font-sans antialiased">
+    <!-- هيدر الموقع -->
+    <header style="background-color: #1b0355; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center;">
+                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: white;">
+                        <img src="images/dlil.ico" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
+                        <span style="font-weight: 700; font-size: 1.2rem;">دليل الروحانيين</span>
+                    </a>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <a href="#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
+                    <a href="#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
+                    <a href="https://wa.me/905370441838?text=السلام+عليكم+ارجو+ان+توصلني+بأحد+الشيوخ+المعتمدين+في+موقعكم" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; font-weight: 500;">
+                        <span>واتساب</span>
+                        <i class="fab fa-whatsapp" style="margin-right: 5px;"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="spiritual-bg min-h-screen pt-20 pb-16">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold mb-4">سياسة الخصوصية</h1>
+                <p class="text-muted-foreground max-w-3xl mx-auto">نحن نولي خصوصيتك أهمية قصوى ونلتزم بحماية بياناتك الشخصية في "دليل الشيوخ الروحانيين".</p>
+            </div>
+
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm spiritual-card p-8">
+                <div class="space-y-6 text-lg leading-relaxed"><h5> 1. البيانات التي نجمعها</h5>
+                   <p>
+                    قد نقوم بجمع البيانات التالية من المستخدمين:
+                    
+                    بيانات الاتصال مثل الاسم ورقم الهاتف والبريد الإلكتروني
+                    المعلومات المتعلقة بالاستشارات المطلوبة ووصف الحالة
+                    المعلومات اللازمة لإتمام عمليات الدفع
+                    بيانات الاستخدام والتصفح للموقع
+                </p>
+                   <h5>   2. كيف نستخدم بياناتك</h5>
+                 <p>
+                    نستخدم البيانات التي نجمعها للأغراض التالية:
+                    
+                    توفير الخدمات والاستشارات المطلوبة وإدارتها
+                    التواصل معك بخصوص طلبات الاستشارة ومتابعة الحالة
+                    إتمام عمليات الدفع وإدارة المدفوعات
+                    تحسين خدماتنا وتجربة المستخدم
+                    الامتثال للالتزامات القانونية والتنظيمية
+                 </p>
+                  <h5>3. مشاركة البيانات</h5>
+                    <p>
+                    قد نقوم بمشاركة بياناتك مع الأطراف التالية فقط:
+                    
+                    الشيوخ والمستشارين المعتمدين في الموقع لتقديم الاستشارات المطلوبة
+                    مقدمي خدمات الدفع لإتمام المعاملات المالية
+                    الجهات الرسمية والقانونية في حالة الالتزام القانوني بذلك
+                    لن نقوم ببيع أو تأجير بياناتك الشخصية لأي طرف ثالث لأغراض تسويقية.
+                </p><h5>4. أمان البيانات</h5> 
+                    <p>
+                    نتخذ إجراءات أمنية مناسبة لحماية بياناتك من الوصول غير المصرح به أو التغيير أو الإفصاح أو الإتلاف.
+                    
+                    نستخدم بروتوكولات التشفير وأنظمة الحماية المتقدمة لضمان سلامة وأمان بياناتك على الموقع.
+                </p> <h5>  5. حقوق الخصوصية</h5>
+                  <p>
+                    يحق لك كمستخدم:
+                    
+                    الوصول إلى بياناتك الشخصية المحفوظة لدينا
+                    طلب تصحيح أي بيانات غير دقيقة
+                    طلب حذف بياناتك الشخصية في ظروف معينة
+                    الاعتراض على معالجة بياناتك لأغراض معينة
+                    للاستفسار عن حقوقك أو تقديم طلب متعلق ببياناتك، يمكنك التواصل معنا عبر واتساب على الرقم المذكور في الموقع.
+                </p><h5>6. ملفات تعريف الارتباط (الكوكيز)</h5>
+                    <p>
+                    نستخدم ملفات تعريف الارتباط (الكوكيز) وتقنيات مماثلة لتحسين تجربة التصفح وجمع بيانات إحصائية حول استخدام الموقع.
+                    
+                    يمكنك تعديل إعدادات متصفحك لرفض ملفات تعريف الارتباط، لكن ذلك قد يؤثر على قدرتك على استخدام بعض ميزات الموقع.
+                </p><h5> 7. تعديلات سياسة الخصوصية</h5>
+                   <p>
+                    قد نقوم بتعديل سياسة الخصوصية من وقت لآخر، وسيتم نشر أي تعديلات على هذه الصفحة مع تحديث تاريخ آخر تعديل.
+                    
+                    من مسؤوليتك مراجعة سياسة الخصوصية بشكل دوري للاطلاع على أي تغييرات.
+                    
+                    باستخدامك لموقع "دليل الشيوخ الروحانيين"، فإنك توافق على سياسة الخصوصية هذه وعلى جمع واستخدام بياناتك وفقاً لما هو موضح فيها.
+                   </p> <p>قد نقوم بتحديث هذه السياسة من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة مع تحديد تاريخ "آخر تحديث". يُعد استمرارك في استخدام الموقع بعد نشر التعديلات موافقة منك على السياسة المعدلة.</p>
+                    <a href="index.html">  <button    type="submit" class="submit-btn">عودة الى الصفحة الرئيسية </button></a> 
+                    <p class="mt-8 text-sm text-center text-muted-foreground">**آخر تحديث: 30 يونيو 2025**</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

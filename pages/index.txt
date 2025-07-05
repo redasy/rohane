@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="منصة التواصل الحصري مع أشهر الشيوخ الروحانيين المختصين في حل المشكلات الروحانية عبر واتساب - ضمان استرداد الأموال - خدمة عملاء متكاملة">
+    <title>الروحانيون المختصون | حلول روحانية مضمونة عبر واتساب</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!-- هيدر الموقع -->
+    <header>
+        <div class="container header-container">
+         
+            <nav>
+                
+                
+                <a  href="index.html">
+                <img src="images/dlil.jpg"  alt="شعار دليل الروحانيين العرب" class="site-logo"></a>
+              <a   class="nav-link" href="index.html"> دليل الروحانيين </a>
+                <a class="nav-link" href="#healers">الشيوخ والمعالجين</a>
+                <a class="nav-link" href="#services">الخدمات الروحانية</a>
+                 
+                    
+                    
+                <a href="https://wa.me/905370441838" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+                    <span>واتساب</span>
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+   
+        
+
+    <!-- مساحة للهيدر الثابت -->
+    <div class="header-space"></div>
+
+    <!-- قسم الهيرو -->
+    <section  id="healers"  class="hero-section"> <br>
+
+        <h1>دليل الشيوخ الروحانيين العرب</h1>
+        <p></p>دليل الشيوخ الروحانيين هو منصة عربية متخصصة تهدف إلى توفير الاستشارات الروحانية والعلاجات التقليدية من خلال شيوخ وشيخات معتمدين ذوي خبرة طويلة في هذا المجال.
+
+        تأسست المنصة بهدف تقديم مرجع موثوق للباحثين عن العلاج الروحاني، حيث يتم اختيار الشيوخ المعتمدين بعناية فائقة بناءً على خبراتهم السابقة وسمعتهم الطيبة ونسب النجاح التي حققوها مع الحالات المختلفة.
+        
+        نحن نؤمن بأن العلاج الروحاني جزء مهم من ثقافتنا العربية والإسلامية، ونسعى إلى تقديمه بصورة احترافية تحافظ على أصالته وتراعي خصوصية الحالات المختلفة.</p>
+    </section>
+    <a    href="#Questions"><button  style="width: 35%;"  type="submit" class="submit-btn"   > الاسئلة الشائعة</button>  </a>
+    <a    href="#About"><button  style="width: 25%;"  type="submit" class="submit-btn"   >حول الموقع</button>  </a>
+    <a    href="#complaints"><button style="width: 20%;"  type="submit" class="submit-btn"   >الشكاوى </button>  </a>
+    <!-- قسم الشيوخ -->
+    <section id="healers1">
+        <div class="section-header">
+            <h2>الشيوخ المعتمدين في موقعنا</h2>
+            <p>نخبة من أقوى الشيوخ الروحانيين العرب المتميزين في أعمالهم الناجحة وخبرتهم الطويلة</p>
+        </div>
+        
+        <div class="sheikhs-container">
+
+            
+            <!-- بطاقة الشيخ 1 -->
+            <div class="sheikh-card">
+                <img src="images/sheikh-mohsen.jpg" alt="الشيخ محسن النهيدي" class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name">الشيخ الروحاني محسن النهيدي</h3>
+                    <p class="sheikh-bio">شيخ روحاني مختص بكشف السحر وعلاجه عن بعد وعمل التحصين اللازم لمنع عودة السحر. له خبرة تمتد لأكثر من 25 عاماً في معالجة مختلف أنواع السحر والشعوذة.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">كشف السحر</span>
+                        <span class="skill-tag">علاج السحر</span>
+                        <span class="skill-tag">التحصين</span>
+                        <span class="skill-tag">إبطال السحر</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- بطاقة الشيخ 2 -->
+            <div class="sheikh-card">
+                <img src="images/sheikha-nora.jpg" alt=" الروحانية نورة الياسري " class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name"> الروحانية نورة الياسري </h3>
+                    <p class="sheikh-bio">شيخة روحانية مختصة في أعمال جلب الحبيب وحل المشاكل الزوجية، تمتلك خبرة واسعة في قراءة الطالع وتحليل الأبراج الروحانية وفقاً للشرع.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">جلب الحبيب</span>
+                        <span class="skill-tag">حل المشاكل الزوجية</span>
+                        <span class="skill-tag">قراءة الطالع</span>
+                        <span class="skill-tag">تحليل الأبراج</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- بطاقة الشيخ 3 -->
+            <div class="sheikh-card">
+                <img src="images/sheikh-erfan.jpg" alt=" الشيخ الروحاني عرفان ابراهيم " class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name"> الشيخ الروحاني عرفان ابراهيم </h3>
+                    <p class="sheikh-bio">خبير في فتح أبواب الرزق وتيسير الأمور المالية، متخصص في الرقى الشرعية والأدعية المجربة لتوسيع الرزق وإزالة العقبات المادية.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">فتح الرزق</span>
+                        <span class="skill-tag">تيسير الأمور المالية</span>
+                        <span class="skill-tag">إزالة العقبات</span>
+                        <span class="skill-tag">الرقى الشرعية</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sheikhs-container">
+
+            
+            <!-- بطاقة الشيخ 1 -->
+            <div class="sheikh-card">
+                <img src="images/sheikha-maryam.jpg" alt=" الروحانية مريم ام محمد " class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name"> الروحانية مريم ام محمد </h3>
+                    <p class="sheikh-bio">شيخة روحانية مختصة بكشف السحر وعلاجه عن بعد وعمل التحصين اللازم لمنع عودة السحر. له خبرة تمتد لأكثر من 25 عاماً في معالجة مختلف أنواع السحر والشعوذة.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">كشف السحر</span>
+                        <span class="skill-tag">علاج السحر</span>
+                        <span class="skill-tag">التحصين</span>
+                        <span class="skill-tag">إبطال السحر</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- بطاقة الشيخ 2 -->
+            <div class="sheikh-card">
+                <img src="images/sheikh-hassan.jpg" alt=" الشيخ الروحاني حسن احمد النطيفي  " class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name">  الشيخ الروحاني حسن احمد النطيفي </h3>
+                    <p class="sheikh-bio">شيخ روحاني مختص في أعمال جلب الحبيب وحل المشاكل الزوجية، يمتلك خبرة واسعة في قراءة الطالع وتحليل الأبراج الروحانية وفقاً للشرع.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">جلب الحبيب</span>
+                        <span class="skill-tag">حل المشاكل الزوجية</span>
+                        <span class="skill-tag">قراءة الطالع</span>
+                        <span class="skill-tag">تحليل الأبراج</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- بطاقة الشيخ 3 -->
+            <div class="sheikh-card">
+                <img src="images/sheikh-mansour.jpg" alt="‪الشيخ الروحاني منصور النهيدي" class="sheikh-img">
+                <div class="sheikh-info">
+                    <h3 class="sheikh-name">‪الشيخ الروحاني منصور النهيدي</h3>
+                    <p class="sheikh-bio">خبير في فتح أبواب الرزق وتيسير الأمور المالية، متخصص في الرقى الشرعية والأدعية المجربة لتوسيع الرزق وإزالة العقبات المادية.</p>
+                    
+                    <div class="sheikh-skills">
+                        <span class="skill-tag">فتح الرزق</span>
+                        <span class="skill-tag">تيسير الأمور المالية</span>
+                        <span class="skill-tag">إزالة العقبات</span>
+                        <span class="skill-tag">الرقى الشرعية</span>
+                    </div>
+                    
+                    <a href="https://wa.me/905370441838" class="sheikh-whatsapp">
+                        التواصل عبر واتساب <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- قسم الخدمات الروحانية -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>خدماتنا الروحانية</h2>
+                <p>مجموعة متكاملة من الخدمات الروحانية المتخصصة بأيدي خبراء معتمدين</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- بطاقة علاج السحر -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>علاج السحر</h3>
+                    <p>كشف وإبطال جميع أنواع السحر والتحصين من آثاره باستخدام الرقى الشرعية والأدعية القرآنية المعتمدة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+                
+                <!-- بطاقة جلب الحبيب -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>جلب الحبيب</h3>
+                    <p>أعمال المحبة وجلب الحبيب وتقوية العلاقات بين الأزواج وفقاً للضوابط الشرعية والطرق الروحانية الصحيحة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+                 <!-- بطاقة علاج السحر -->
+                 <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>علاج السحر</h3>
+                    <p>كشف وإبطال جميع أنواع السحر والتحصين من آثاره باستخدام الرقى الشرعية والأدعية القرآنية المعتمدة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+                
+                <!-- بطاقة جلب الحبيب -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>جلب الحبيب</h3>
+                    <p>أعمال المحبة وجلب الحبيب وتقوية العلاقات بين الأزواج وفقاً للضوابط الشرعية والطرق الروحانية الصحيحة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+                <!-- بطاقة فتح أبواب الرزق -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>فتح أبواب الرزق</h3>
+                    <p>تنزيل الأموال وفتح أبواب الرزق المغلقة وإزالة العوائق المادية باستخدام الأدعية والأذكار المأثورة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+                
+                <!-- بطاقة علاج الحسد -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>علاج الحسد</h3>
+                    <p>علاج الحسد والعين والتابعة والمس العاشق بالرقى الشرعية والعلاجات الروحانية المعتمدة.</p>
+                    <a href="#" class="service-link">تعرف على المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Questions"><div  class="page-header" id="complaintHeader">
+     <a href="index.html#Questions">  <h3>أسئلة شائعة</h3></a> 
+        <h4>كيف يتم اختيار الشيوخ في المنصة؟</h4>
+        <p>يتم اختيار الشيوخ بناءً على خبرتهم الطويلة وسمعتهم الطيبة ونسب النجاح التي حققوها في العلاج الروحاني، كما نقوم بمتابعة تقييمات العملاء لضمان استمرار جودة الخدمة المقدمة.</p>
+        <h4>ما هي طريقة الدفع المتبعة؟</h4>
+        <p>يتم الاتفاق على الرسوم مع الشيخ المختص بعد تحديد نوع الاستشارة والخدمة المطلوبة، ويمكن الدفع من خلال التحويل البنكي أو الدفع الإلكتروني حسب الطريقة المتفق عليها.</p>
+        <h4> هل يمكنني استرداد الأموال في حال عدم الرضا عن الخدمة؟</h4>
+        <p>نعم، يمكنك تقديم طلب استرداد الأموال في حالات محددة مثل عدم تقديم الخدمة المتفق عليها أو وجود اختلاف واضح بين ما تم الاتفاق عليه والخدمة المقدمة. يرجى مراجعة <a style="text-decoration: none; font-size: large;  "  href="refund-policy.html">سياسة استرداد الأموال للتفاصيل.</a> </p>
+    <h4>كيف أضمن الخصوصية عند طلب الاستشارة؟</h4>
+    <p> نحن نضمن الحفاظ على خصوصية جميع البيانات والمعلومات المقدمة، ويتم التواصل بشكل مباشر مع الشيخ المختص عبر واتساب لضمان سرية المحادثات والاستشارات.</p>
+</div>
+    </section>
+    
+    <section id="complaints"  >
+    <div class="page-header" id="complaintHeader">
+      <a href="complaints.html"> <h1>تقديم شكوى</h1></a> 
+        <p>إذا كنت غير راضٍ عن الخدمة المقدمة، يمكنك تقديم شكوى ونعدك بالتحقيق فيها</p>
+    </div>
+  </section>
+  <section id="About">
+    <div class="page-header" id="complaintHeader">
+      <a href="about.html"> <h1> حول الموقع</h1></a> 
+        <p>منصة موثوقة تجمع نخبة من الشيوخ والشيخات الروحانيين المتخصصين في مجالات الطب الروحاني</p>
+    </div>
+  </section>
+<footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 class="footer-logo">دليل الشيوخ الروحانيين</h3>
+          <p class="footer-description">الوجهة الأولى للإستشارات الروحانية والعلاجات بالطرق التقليدية من قبل شيوخ وشيخات معتمدين.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h4 class="footer-title">روابط سريعة</h4>
+          <nav class="footer-nav">
+            <a href="index.html">الرئيسية</a>
+            <a href="about.html">حول الموقع</a>
+            <a href="#healers">الشيوخ والمعالجين</a>
+            <a href="#services"> خدماتناالروحانية</a>
+            <a href="complaints.html">تقديم شكوى</a>
+          </nav>
+        </div>
+        
+        <div class="footer-col">
+          <h4 class="footer-title">صفحات مهمة</h4>
+          <nav class="footer-nav">
+            <a href="terms.html">شروط الاستخدام</a>
+            <a href="privacy.html">سياسة الخصوصية</a>
+            <a href="disclaimer.html">إخلاء المسؤولية</a>
+            <a href="refund-policy.html">سياسة استرداد الأموال</a>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">© 2025 دليل الشيوخ الروحانيين. جميع الحقوق محفوظة</p>
+        <a href="https://wa.me/905370441838" target="_blank" rel="noopener noreferrer" class="whatsapp-contact">
+          <span>للتواصل عبر واتساب</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
