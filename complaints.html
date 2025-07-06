@@ -306,19 +306,19 @@
 }
     </style></head>
 <body class="font-sans antialiased">
-    <!-- هيدر الموقع -->
+     <!-- هيدر الموقع -->
     <header style="background-color: #1b0355; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
         <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
             <nav style="display: flex; justify-content: space-between; align-items: center;">
                 <div style="display: flex; align-items: center;">
                     <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: white;">
-                        <img src="images/dlil.ico" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5FE1wVwrBDapQQankAIyU0d6tgmSFpnLNDFUt-srpUF7_DI5pol8XR2rNDFYyaHiZwZf4xxd6RdELH0fJOqDWIiaEUCJjIqGaKXmb9LT4vTrwW4p-oW-oAoWgKudDxBAbxHu-jeeCElA7-OpxE4bj3ZPZNsQ59F5_PFcRXmdC6nXTvG0ZqvV8eqmpzCkj/s16000/%D9%A2%D9%A0%D9%A2%D9%A5%D9%A0%D9%A7%D9%A0%D9%A6_%D9%A1%D9%A4%D9%A0%D9%A6%D9%A4%D9%A4.png" alt="شعار دليل الروحانيين العرب" style="width: 40px; height: 40px; margin-left: 10px;border-radius: 50%;">
                         <span style="font-weight: 700; font-size: 1.2rem;">دليل الروحانيين</span>
                     </a>
                 </div>
                 <div style="display: flex; align-items: center;">
-                    <a href="#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
-                    <a href="#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
+                    <a href="https://dlil-roh.blogspot.com/#healers" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الشيوخ المعتمدين</a>
+                    <a href="https://dlil-roh.blogspot.com/#services" style="color: white; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.3s;">الخدمات الروحانية</a>
                     <a href="https://wa.me/905370441838?text=السلام+عليكم+ارجو+ان+توصلني+بأحد+الشيوخ+المعتمدين+في+موقعكم" target="_blank" rel="noopener noreferrer" style="background-color: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; font-weight: 500;">
                         <span>واتساب</span>
                         <i class="fab fa-whatsapp" style="margin-right: 5px;"></i>
@@ -327,140 +327,144 @@
             </nav>
         </div>
     </header>
-    <!-- محتوى صفحة الشكاوى -->
-    <div class="complaints-container">
-        <div class="page-header">
-            <h1>تقديم شكوى</h1>
-            <p>إذا كنت غير راضٍ عن الخدمة المقدمة، يمكنك تقديم شكوى ونعدك بالتحقيق فيها</p>
-        </div>
-        
-        <div class="complaints-card">
-            <div class="policy-box">
-                <h3>سياسة استرداد الأموال</h3>
-                <p>يحق لك طلب استرداد الأموال في الحالات التالية:</p>
-                <ul>
-                    <li>عدم تقديم الخدمة المتفق عليها بعد الدفع</li>
-                    <li>وجود اختلاف واضح بين ما تم الاتفاق عليه والخدمة المقدمة</li>
-                    <li>عدم استجابة الشيخ المختص خلال 7 أيام من الدفع</li>
-                </ul>
-                <p>يتم النظر في طلبات الاسترداد خلال 14 يوم عمل من تاريخ تقديم الشكوى.</p>
-                <p>للاستفسارات الإضافية، يمكنك التواصل عبر البريد الإلكتروني: <strong>7ro7ane7@gmail.com</strong></p>
-            </div>
-            <form id="complaintForm" class="complaints-form">
-
-            
-                <!-- إضافة حقول مخفية للتهيئة -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
-                <input type="hidden" name="_subject" value="شكوى جديدة - موقع روحانة">
-                <input type="hidden" name="_replyto" value="">
-                
-                <div class="form-group" id="nameGroup">
-                    <label for="name" class="form-label">الاسم الكامل</label>
-                    <input type="text" id="name" name="name" class="form-input" placeholder="أدخل اسمك الكامل" required>
-                    <span class="error-message">الرجاء إدخال الاسم الكامل</span>
-                </div>
-                
-                <div class="form-group" id="emailGroup">
-                    <label for="email" class="form-label">البريد الإلكتروني</label>
-                    <input type="email" id="email" name="email" class="form-input" placeholder="أدخل بريدك الإلكتروني" required>
-                    <span class="error-message">الرجاء إدخال بريد إلكتروني صحيح</span>
-                </div>
-                
-                <div class="form-group" id="whatsappGroup">
-                    <label for="whatsapp" class="form-label">رقم واتساب</label>
-                    <input type="tel" id="whatsapp" name="whatsapp" class="form-input" placeholder="أدخل رقم واتساب مع رمز الدولة" required>
-                    <p class="form-hint">يجب أن يكون نفس الرقم المستخدم عند طلب الاستشارة</p>
-                    <span class="error-message">الرجاء إدخال رقم واتساب صحيح</span>
-                </div>
-                
-                <div class="form-group" id="sheikhGroup">
-                    <label for="sheikh" class="form-label">الشيخ الذي تقدم الشكوى بخصوصه</label>
-                    <select id="sheikh" name="sheikh" class="form-select" required>
-                        <option value="">اختر الشيخ</option>
-                        <option value="الشيخ محسن النهيدي">الشيخ محسن النهيدي</option>
-                        <option value="الشيخة نورة الياسري">الشيخة نورة الياسري</option>
-                        <option value="الشيخ عرفان إبراهيم">الشيخ عرفان إبراهيم</option>
-                        <option value="الشيخة مريم أم محمد">الشيخة مريم أم محمد</option>
-                        <option value="الشيخ حسن أحمد النطيفي">الشيخ حسن أحمد النطيفي</option>
-                        <option value="الشيخ منصور النهيدي  ">الشيخ منصور النهيدي</option>
-                    </select>
-                    <span class="error-message">الرجاء اختيار الشيخ</span>
-                </div>
-                
-                <div class="form-group" id="complaintGroup">
-                    <label for="complaint" class="form-label">تفاصيل الشكوى</label>
-                    <textarea id="complaint" name="complaint" class="form-textarea" placeholder="اشرح سبب شكواك بالتفصيل مع ذكر التواريخ والمبالغ المدفوعة إن وجدت" required></textarea>
-                    <span class="error-message">الرجاء إدخال تفاصيل الشكوى</span>
-                </div>
-                
-                <button type="submit" class="submit-btn">تقديم الشكوى</button>
-            </form>
-        </div>
-        
-       
-    
-
-    <!-- النافذة المنبثقة -->
-    <div class="modal-overlay" id="successModal">
-        <div class="modal-content">
-            <i class="fas fa-check-circle modal-icon"></i>
-            <h3 class="modal-title">تم إرسال الشكوى بنجاح</h3>
-            <p class="modal-message">شكراً لتواصلك معنا، سيتم الرد على رسالتك في أقرب وقت ممكن</p>
-            <p class="modal-message">سيتم تحويلك تلقائياً إلى الصفحة الرئيسية خلال 3 ثوانٍ</p>
-        </div>
+  <!-- محتوى صفحة الشكاوى -->
+<div class="complaints-container">
+    <div class="page-header">
+        <h1>تقديم شكوى</h1>
+        <p>إذا كنت غير راضٍ عن الخدمة المقدمة، يمكنك تقديم شكوى ونعدك بالتحقيق فيها</p>
     </div>
+    
+    <div class="complaints-card">
+        <div class="policy-box">
+            <h3>سياسة استرداد الأموال</h3>
+            <p>يحق لك طلب استرداد الأموال في الحالات التالية:</p>
+            <ul>
+                <li>عدم تقديم الخدمة المتفق عليها بعد الدفع</li>
+                <li>وجود اختلاف واضح بين ما تم الاتفاق عليه والخدمة المقدمة</li>
+                <li>عدم استجابة الشيخ المختص خلال 7 أيام من الدفع</li>
+            </ul>
+            <p>يتم النظر في طلبات الاسترداد خلال 14 يوم عمل من تاريخ تقديم الشكوى.</p>
+            <p>للاستفسارات الإضافية، يمكنك التواصل عبر البريد الإلكتروني: <strong>7ro7ane7@gmail.com</strong></p>
+        </div>
+        <form id="complaintForm" class="complaints-form">
+            <div class="form-group" id="nameGroup">
+                <label for="name" class="form-label">الاسم الكامل</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="أدخل اسمك الكامل" required>
+                <span class="error-message">الرجاء إدخال الاسم الكامل</span>
+            </div>
+            
+            <div class="form-group" id="emailGroup">
+                <label for="email" class="form-label">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="أدخل بريدك الإلكتروني" required>
+                <span class="error-message">الرجاء إدخال بريد إلكتروني صحيح</span>
+            </div>
+            
+            <div class="form-group" id="whatsappGroup">
+                <label for="whatsapp" class="form-label">رقم واتساب</label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form-input" placeholder="أدخل رقم واتساب مع رمز الدولة" required>
+                <p class="form-hint">يجب أن يكون نفس الرقم المستخدم عند طلب الاستشارة</p>
+                <span class="error-message">الرجاء إدخال رقم واتساب صحيح</span>
+            </div>
+            
+            <div class="form-group" id="sheikhGroup">
+                <label for="sheikh" class="form-label">الشيخ الذي تقدم الشكوى بخصوصه</label>
+                <select id="sheikh" name="sheikh" class="form-select" required>
+                    <option value="">اختر الشيخ</option>
+                    <option value="الشيخ محسن النهيدي">الشيخ محسن النهيدي</option>
+                    <option value="الشيخة نورة الياسري">الشيخة نورة الياسري</option>
+                    <option value="الشيخ عرفان إبراهيم">الشيخ عرفان إبراهيم</option>
+                    <option value="الشيخة مريم أم محمد">الشيخة مريم أم محمد</option>
+                    <option value="الشيخ حسن أحمد النطيفي">الشيخ حسن أحمد النطيفي</option>
+                    <option value="الشيخ منصور النهيدي  ">الشيخ منصور النهيدي</option>
+                </select>
+                <span class="error-message">الرجاء اختيار الشيخ</span>
+            </div>
+            
+            <div class="form-group" id="complaintGroup">
+                <label for="complaint" class="form-label">تفاصيل الشكوى</label>
+                <textarea id="complaint" name="complaint" class="form-textarea" placeholder="اشرح سبب شكواك بالتفصيل مع ذكر التواريخ والمبالغ المدفوعة إن وجدت" required></textarea>
+                <span class="error-message">الرجاء إدخال تفاصيل الشكوى</span>
+            </div>
+            
+            <button type="submit" class="submit-btn">تقديم الشكوى</button>
+        </form>
+    </div>
+</div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const complaintForm = document.getElementById('complaintForm');
-            const successModal = document.getElementById('successModal');
-        
-            complaintForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-        
-                const name = document.getElementById('name').value.trim();
-                const email = document.getElementById('email').value.trim();
-                const whatsapp = document.getElementById('whatsapp').value.trim();
-                const sheikh = document.getElementById('sheikh').value;
-                const complaint = document.getElementById('complaint').value.trim();
-        
-                // التحقق من صحة الحقول
-                if (!name || !email || !whatsapp || !sheikh || !complaint) {
-                    alert("يرجى تعبئة جميع الحقول بشكل صحيح.");
-                    return;
-                }
-        
-                // تكوين نص الرسالة
-                const subject = `شكوى جديدة من ${name}`;
-                const message = `
-                    الاسم الكامل: ${name}
-                    البريد الإلكتروني: ${email}
-                    رقم واتساب: ${whatsapp}
-                    الشيخ: ${sheikh}
-                    تفاصيل الشكوى:
-                    ${complaint}
-                `;
-        
-                // إعداد رابط mailto
-                const mailtoLink = `mailto:7ro7ane7@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
-        
-                // فتح بريد المستخدم لإرسال الرسالة
-                window.location.href = mailtoLink;
-        
-                // إظهار النافذة المنبثقة بعد تأخير بسيط
-                setTimeout(() => {
-                    successModal.classList.add('active');
-                }, 500);
-        
+<!-- النافذة المنبثقة -->
+<div class="modal-overlay" id="successModal" style="display: none;">
+    <div class="modal-content">
+        <i class="fas fa-check-circle modal-icon"></i>
+        <h3 class="modal-title">تم إرسال الشكوى بنجاح</h3>
+        <p class="modal-message">شكراً لتواصلك معنا، سيتم الرد على رسالتك في أقرب وقت ممكن</p>
+        <p class="modal-message">سيتم تحويلك تلقائياً خلال 3 ثوانٍ</p>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const complaintForm = document.getElementById('complaintForm');
+        const successModal = document.getElementById('successModal');
+    
+        complaintForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+    
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const whatsapp = document.getElementById('whatsapp').value.trim();
+            const sheikh = document.getElementById('sheikh').value;
+            const complaint = document.getElementById('complaint').value.trim();
+    
+            // التحقق من صحة الحقول
+            if (!name || !email || !whatsapp || !sheikh || !complaint) {
+                alert("يرجى تعبئة جميع الحقول بشكل صحيح.");
+                return;
+            }
+    
+            // تكوين نص الرسالة
+            const subject = `شكوى جديدة من ${name}`;
+            const body = `
+الاسم الكامل: ${name}
+البريد الإلكتروني: ${email}
+رقم واتساب: ${whatsapp}
+الشيخ: ${sheikh}
+تفاصيل الشكوى:
+${complaint}
+            `;
+    
+            // إرسال البريد الإلكتروني باستخدام EmailJS
+            emailjs.send("service_your_service_id", "template_your_template_id", {
+                to_email: "7ro7ane7@gmail.com",
+                from_name: name,
+                from_email: email,
+                subject: subject,
+                message: body
+            })
+            .then(function(response) {
+                console.log("SUCCESS!", response.status, response.text);
+                // إظهار النافذة المنبثقة
+                successModal.style.display = "block";
+                
                 // إعادة التوجيه بعد 3 ثوانٍ
                 setTimeout(() => {
-                    window.location.href = 'index.html';
+                    window.location.href = 'https://dlil-roh.blogspot.com';
                 }, 3000);
+            }, function(error) {
+                console.log("FAILED...", error);
+                alert("حدث خطأ أثناء إرسال الشكوى، يرجى المحاولة مرة أخرى.");
             });
         });
-    </script>
+    });
+</script>
+
+<!-- إضافة مكتبة EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+<script>
+    // تهيئة EmailJS مع معرف المستخدم الخاص بك
+    (function(){
+        emailjs.init("your_user_id");
+    })();
+</script>
         
 </body>
 </html>
